@@ -31,6 +31,8 @@ $(document).ready(function () {
       $(".ruby").show();
     }
 
+    $("#results").fadeIn();
+    
     event.preventDefault();
   });
 });
