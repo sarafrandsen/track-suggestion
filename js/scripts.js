@@ -29,5 +29,8 @@ $(document).ready(function () {
     $("#results").toggle();
   });
 
+  $("form").submit(function(event) {
+    var name = ($("input#name").val());
+  });
 
 });
