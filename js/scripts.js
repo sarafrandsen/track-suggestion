@@ -1,6 +1,6 @@
 
 $(document).ready(function () {
-//toggle question pages
+//show/hide next page
   $("#toName").click(function() {
     $("#intro").hide();
     $("#nameExp").show();
@@ -33,15 +33,15 @@ $(document).ready(function () {
   $("form#suggestedTrack").submit(function(event) {
     event.preventDefault();
 
-    var value1 = parseInt($("input:radio[name=q1]:checked").val());
-    var value2 = parseInt($("input:radio[name=q2]:checked").val());
-    var value3 = parseInt($("input:radio[name=q3]:checked").val());
-    var value4 = parseInt($("input:radio[name=q4]:checked").val());
-    var value5 = parseInt($("input:radio[name=q5]:checked").val());
+    var q1 = parseInt($("input:radio[name=q1]:checked").val());
+    var q2 = parseInt($("input:radio[name=q2]:checked").val());
+    var q3 = parseInt($("input:radio[name=q3]:checked").val());
+    var q4 = parseInt($("input:radio[name=q4]:checked").val());
+    var q5 = parseInt($("input:radio[name=q5]:checked").val());
     var track = q1 + q2 + q3 + q4 + q5 ;
     var name = $("input#name").val();
 
-    $("#results").text(name);
+    $("#name").text(name);
 
     if (track >= 5) {
       $("#cSharp").show();
