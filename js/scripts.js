@@ -31,7 +31,9 @@ $(document).ready(function () {
       $(".ruby").show();
     }
 
-    $("#results").fadeIn();
+    $("#refresh").click(function() {
+      location.reload();
+    });
     
     event.preventDefault();
   });
