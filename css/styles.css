@@ -1,8 +1,4 @@
 
-#results {
-  display: none;
-}
-
 .cSharp, .java, .php, .ruby {
   display: none;
 }
@@ -13,4 +9,42 @@ header {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
+}
+
+#intro {
+  background-image: url("../img/bg-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  padding: 10px;
+  padding-left:40%;
+  margin-left: 10px;
+  color: #4B6065;
+}
+
+body {
+  margin-top: 60px;
+  color:
+}
+
+#questions {
+  background-color: #6B949E;
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: 10px;
+  color: #255C69;
+  display: none;
+}
+
+#results {
+  background-image: url("../img/bg3-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: 10px;
+  color: #FFD4AA;
+  display: none;
 }

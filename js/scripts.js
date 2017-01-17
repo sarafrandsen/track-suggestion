@@ -1,5 +1,10 @@
 
 $(document).ready(function () {
+  $(".continue").click(function() {
+    $("#intro").hide();
+    $("#questions").show();
+  })
+
   $("form#suggestedTrack").submit(function(event) {
     $("#results").show();
     $("#suggestedTrack").hide();

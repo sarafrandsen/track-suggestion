@@ -12,19 +12,23 @@
 <!--beginning of form-->
       <form id="suggestedTrack">
 <!--introduction-->
-        <div id="intro" class="jumbotron">
-          <header>
-            <h1>Which Epicodus Track is Right for You?</h1>
-            <p class="lead">Wondering which Epicodus learning track you should take? Answer a few questions, and see what you're most likely to enjoy and benefit from learning!<br>
+        <div id="intro">
+            <header>Which Epicodus Track is Right for You?</header>
+            <p class="text-lowercase">Wondering which Epicodus learning track you should take? Answer a few questions, and see what you're most likely to enjoy and benefit from learning!<br><br>
             Keep in mind, any programming language you learn will only help you learn others in the future, and nobody is stuck working with the one they originally studied! Epicodus is here to help you understand the logic behind programming, and to allow you a chance to exercise your brain and practice learning things in a way you haven't before!</p>
-            <p>Now, on to the questions!</p>
-          </header>
+            <h3>Let's find out which language to learn!</h3>
           <div class="form-group" id="name">
-            <label for="name">Before we start, what is your name?</label>
-            <input id="name" type="text" placeholder="Charlie Tuna">
+            <h4>
+              <label for="name">Before we start, what is your name?</label>
+              <input id="name" type="text" placeholder="Charlie Tuna">
+              <button type="button" class="btn btn-xs continue">
+                Continue
+              </button>
+            </h4>
           </div>
         </div>
 <!-- question 1 -->
+<div id="questions">
         <div id="question1">
           <label for="q1">How much typing do you want to do?</label>
           <div class="radio">
@@ -168,7 +172,9 @@
       </form>
     </div>
 
-    <div id="results">
+</div>
+
+    <div id="results" class="container">
       <h1>Here are your results, <span class="yourName"></span>!</h1>
 <!--C#-->
       <div class="cSharp">Based on the answers you provided, it looks like <strong>C#</strong> is the track for you! C# is the most popular among bigger, established businesses, often used to build interal software. Because it has the backing of Microsoft, it is one of the most in-demand languages in the job market. If you like the idea of working for a larger company, <strong>C#</strong> is a great choice!</div>
