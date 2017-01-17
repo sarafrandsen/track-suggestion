@@ -9,36 +9,42 @@
   </head>
   <body>
     <div class="container">
-      <h1>Which Epicodus Track is Right for You?</h1>
-      <h3>Wondering which Epicodus learning track you should take? Answer a few questions, and see what you're most likely to enjoy and benefit from learning!<br>
-      Keep in mind, any programming language you learn will only help you learn others in the future, and nobody is stuck working with the one they originally studied! Epicodus is here to help you understand the logic behind programming, and to allow you a chance to exercise your brain and practice learning things in a way you haven't before!</h3>
-      <h5>Now, on to the questions!</h5>
-
+<!--introduction-->
+      <div id="intro">
+        <h1>Which Epicodus Track is Right for You?</h1>
+        <h3>Wondering which Epicodus learning track you should take? Answer a few questions, and see what you're most likely to enjoy and benefit from learning!<br>
+        Keep in mind, any programming language you learn will only help you learn others in the future, and nobody is stuck working with the one they originally studied! Epicodus is here to help you understand the logic behind programming, and to allow you a chance to exercise your brain and practice learning things in a way you haven't before!</h3>
+        <h5>Now, on to the questions!</h5>
+      </div>
+<!--beginning of form-->
       <form>
-        <div class="form-group">
-          <label for="name">Before we start, what is your name?</label>
-          <input id="name" class="form-control" type="text">
-        </div>
-<!--experience-->
-        <div>
-          <label for="experience">And do you have any previous programming experience?</label>
-          <div class="radio">
-            <label>
-              <input type="radio" name="exp" value="0">
-              No previous experience.
-            </label>
+<!--name and experience-->
+        <div id="nameExp">
+          <div class="form-group">
+            <label for="name">Before we start, what is your name?</label>
+            <input id="name" class="form-control" type="text">
           </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="exp" value="0">
-              Some experience.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="exp" value="0">
-              I have lots of experience!
-            </label>
+<!--experience has no value, just seems welcoming-->
+          <div>
+            <label for="experience">And do you have any previous programming experience?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="exp" value="0">
+                No previous experience.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="exp" value="0">
+                Some experience.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="exp" value="0">
+                I have lots of experience!
+              </label>
+            </div>
           </div>
         </div>
 <!-- question 1 -->
@@ -93,6 +99,34 @@
           <div class="radio">
             <label>
               <input type="radio" name="q2" value="4">
+              Answer
+            </label>
+          </div>
+        </div>
+<!--question 3-->
+        <div id="Question3">
+          <label for="q3">Question 3</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q3" value="1">
+              Answer
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q3" value="2">
+              Answer
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q3" value="3">
+              Answer
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q3" value="4">
               Answer
             </label>
           </div>
