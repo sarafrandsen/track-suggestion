@@ -6,3 +6,11 @@
 .cSharp, .java, .php, .ruby {
   display: none;
 }
+
+header {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+}

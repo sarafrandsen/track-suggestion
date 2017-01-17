@@ -13,7 +13,7 @@ $(document).ready(function () {
     var name = $("input#name").val();
       $(".yourName").text(name);
 
-    if (track >= 5) {
+    if (track <= 5) {
       $(".cSharp").show();
 
     } else if (track >= 6 && track <= 10) {
