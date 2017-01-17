@@ -2,32 +2,32 @@
 $(document).ready(function () {
 //toggle question pages
   $("#toName").click(function() {
-    $("#intro").toggle();
-    $("#nameExp").toggle();
+    $("#intro").hide();
+    $("#nameExp").show();
   });
   $("#toQ1").click(function() {
-    $("#nameExp").toggle();
-    $("#question1").toggle();
+    $("#nameExp").hide();
+    $("#question1").show();
   });
   $("#toQ2").click(function() {
-    $("#question1").toggle();
-    $("#question2").toggle();
+    $("#question1").hide();
+    $("#question2").show();
   });
   $("#toQ3").click(function() {
-    $("#question2").toggle();
-    $("#question3").toggle();
+    $("#question2").hide();
+    $("#question3").show();
   });
   $("#toQ4").click(function() {
-    $("#question3").toggle();
-    $("#question4").toggle();
+    $("#question3").hide();
+    $("#question4").show();
   });
   $("#toQ5").click(function() {
-    $("#question4").toggle();
-    $("#question5").toggle();
+    $("#question4").hide();
+    $("#question5").show();
   });
   $("#toResults").click(function() {
-    $("#question5").toggle();
-    $("#results").toggle();
+    $("#question5").hide();
+    $("#results").show();
   });
 
   $("form#suggestedTrack").submit(function(event) {
