@@ -29,7 +29,10 @@ body {
 }
 
 #questions {
-  background-color: #6B949E;
+  background-image: url("../img/bg2-img.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   border-radius: 25px;
   padding: 10px;
   margin-left: 10px;
@@ -38,13 +41,14 @@ body {
 }
 
 #results {
-  background-image: url("../img/bg3-img.jpg");
+  background-image: url("../img/bg3-img.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 25px;
   padding: 10px;
   margin-left: 10px;
-  color: #FFD4AA;
+  padding-right: 30%;
+  color: #1E353A;
   display: none;
 }
