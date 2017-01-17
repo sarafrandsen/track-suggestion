@@ -1,4 +1,5 @@
 $(document).ready(function () {
+//toggle question pages
   $("#toName").click(function() {
     $("#intro").toggle();
     $("#nameExp").toggle();
@@ -26,5 +27,7 @@ $(document).ready(function () {
   $("#toResults").click(function() {
     $("#question5").toggle();
     $("#results").toggle();
-  })
+  });
+
+
 });
