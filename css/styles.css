@@ -25,7 +25,6 @@ header {
 
 body {
   margin-top: 60px;
-  color:
 }
 
 #questions {
@@ -34,10 +33,14 @@ body {
   background-position: center;
   background-size: cover;
   border-radius: 25px;
-  padding: 10px;
+  padding: 20px;
   margin-left: 10px;
-  color: #255C69;
+  color: #fff;
   display: none;
+}
+
+.questionTitle {
+  font-size: 25px;
 }
 
 #results {
