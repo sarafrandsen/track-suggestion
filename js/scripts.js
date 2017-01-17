@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
 //toggle question pages
   $("#toName").click(function() {
@@ -29,8 +30,12 @@ $(document).ready(function () {
     $("#results").toggle();
   });
 
+
   $("form").submit(function(event) {
+    event.preventDefault();
     var name = ($("input#name").val());
+    $("#results").text(result);
+    $("")
   });
 
 });
