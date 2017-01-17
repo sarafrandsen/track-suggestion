@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.1.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Epicodus Track Suggestions</title>
-  </head>
-  <body>
-    <div class="container">
-<!--beginning of form-->
-      <form id="suggestedTrack">
-<!--introduction-->
-        <div id="intro">
-            <header>Which Epicodus Track is Right for You?</header>
-            <p class="text-lowercase">Wondering which Epicodus learning track you should take? Answer a few questions, and see what you're most likely to enjoy and benefit from learning!<br><br>
-            Keep in mind, any programming language you learn will only help you learn others in the future, and nobody is stuck working with the one they originally studied! Epicodus is here to help you understand the logic behind programming, and to allow you a chance to exercise your brain and practice learning things in a way you haven't before!</p>
-            <h3>Let's find out which language to learn!</h3>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Epicodus Track Suggestions</title>
+</head>
+<body>
+  <div class="container">
+    <!--beginning of form-->
+    <form id="suggestedTrack">
+      <!--introduction-->
+      <div id="intro">
+        <header>Which Epicodus Track is Right for You?</header>
+        <p class="text-lowercase">Wondering which Epicodus learning track you should take? Answer a few questions, and see what you're most likely to enjoy and benefit from learning!<br><br>
+          Keep in mind, any programming language you learn will only help you learn others in the future, and nobody is stuck working with the one they originally studied! Epicodus is here to help you understand the logic behind programming, and to allow you a chance to exercise your brain and practice learning things in a way you haven't before!</p>
+          <h3>Let's find out which language to learn!</h3>
           <div class="form-group" id="name">
             <h4>
               <label for="name">Before we start, what is your name?</label><br>
@@ -27,170 +27,170 @@
             </h4>
           </div>
         </div>
-      <div id="questions">
-<!--question 1-->
-        <div id="question1">
-          <label for="q1" class="questionTitle">How much typing do you want to do?</label>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q1" value="1">
-              All the typing!
-            </label>
+        <div id="questions">
+          <!--question 1-->
+          <div id="question1">
+            <label for="q1" class="questionTitle">How much typing do you want to do?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="1">
+                All the typing!
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="2">
+                Most of the typing.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="3">
+                Some typing?
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="4">
+                Very little typing.
+              </label>
+            </div>
           </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q1" value="2">
-              Most of the typing.
-            </label>
+          <!--question 2-->
+          <div id="question2">
+            <label for="q2" class="questionTitle">What sort of things do you want to make?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q2" value="1">
+                Stuff for the top dogs, like Microsoft.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q2" value="2">
+                Android Apps.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q2" value="3">
+                Websites for clients!
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q2" value="4">
+                Websites for users!
+              </label>
+            </div>
           </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q1" value="3">
-              Some typing?
-            </label>
+          <!--question 3-->
+          <div id="question3">
+            <label for="q3" class="questionTitle">Are you interested in working in an office, or freelancing?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="1">
+                A busy office on a large campus.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="2">
+                A moderately sized, but still professional office setting.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="3">
+                Either in an office or freelancing.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="4">
+                Let me stay home and freelance!
+              </label>
+            </div>
           </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q1" value="4">
-              Very little typing.
-            </label>
+          <!--question 4-->
+          <div id="question4">
+            <label for="q4" class="questionTitle">What sites would you be interested in working for?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q4" value="1">
+                All of them! I want to do web dev, games, and general Microsoft dev!
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q4" value="2">
+                Just make me hireable!
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q4" value="3">
+                Facebook! Or Wikipedia! or Tumblr!
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q4" value="4">
+                Things like AirBnB or Hulu sound interesting...
+              </label>
+            </div>
           </div>
-        </div>
-<!--question 2-->
-        <div id="question2">
-          <label for="q2" class="questionTitle">What sort of things do you want to make?</label>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q2" value="1">
-              Stuff for the top dogs, like Microsoft.
-            </label>
+          <!--question 5-->
+          <div id="question5">
+            <label for="q5" class="questionTitle">Finally, which track were you already interested in?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q5" value="1">
+                I've heard of C# before!
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q5" value="2">
+                JAVA because it reminds me of coffee.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q5" value="3">
+                PHP looks like the Internet is blowing raspberries!
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q5" value="4">
+                Ruby Ruby Ruby!
+              </label>
+            </div>
           </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q2" value="2">
-              Android Apps.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q2" value="3">
-              Websites for clients!
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q2" value="4">
-              Websites for users!
-            </label>
-          </div>
-        </div>
-<!--question 3-->
-        <div id="question3">
-          <label for="q3" class="questionTitle">Are you interested in working in an office, or freelancing?</label>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q3" value="1">
-              A busy office on a large campus.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q3" value="2">
-              A moderately sized, but still professional office setting.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q3" value="3">
-              Either in an office or freelancing.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q3" value="4">
-              Let me stay home and freelance!
-            </label>
-          </div>
-        </div>
-<!--question 4-->
-        <div id="question4">
-          <label for="q4" class="questionTitle">What sites would you be interested in working for?</label>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q4" value="1">
-              All of them! I want to do web dev, games, and general Microsoft dev!
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q4" value="2">
-              Just make me hireable!
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q4" value="3">
-              Facebook! Or Wikipedia! or Tumblr!
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q4" value="4">
-              Things like AirBnB or Hulu sound interesting...
-            </label>
-          </div>
-        </div>
-<!--question 5-->
-        <div id="question5">
-          <label for="q5" class="questionTitle">Finally, which track were you already interested in?</label>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q5" value="1">
-              I've heard of C# before!
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q5" value="2">
-              JAVA because it reminds me of coffee.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q5" value="3">
-              PHP looks like the Internet is blowing raspberries!
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q5" value="4">
-              Ruby Ruby Ruby!
-            </label>
-          </div>
-        </div>
-        <button type="submit" class="button btn">See your results!</button>
-      </form>
+          <button type="submit" class="button btn">See your results!</button>
+        </form>
+      </div>
     </div>
-  </div>
 
     <div id="results" class="container">
       <h1>Here are your results, <span class="yourName"></span>!</h1>
-<!--C#-->
+      <!--C#-->
       <div class="cSharp">
         <h5>Based on the answers you provided, it looks like <strong>C#</strong> is the track for you!</h5>
         <p>C# is the most popular among bigger, established businesses, often used to build interal software. Because it has the backing of Microsoft, it is one of the most in-demand languages in the job market. If you like the idea of working for a larger company, <strong>C#</strong> is a great choice!</p>
       </div>
-<!--JAVA-->
+      <!--JAVA-->
       <div class="java">
         <h5>Based on the answers you provided, it looks like <strong>JAVA</strong> is the track for you!</h5>
         <p>Java is a favorite of enterprise companies, as well as one of the most popular of all programming languages. It is used in everything from high-performance processing to building Android user interfaces. Because Java has been around for a long time and is used in so many applications, it is a very high-demand language. If you are interested in working for an enterprise-level company, as an Android developer, or in high-performance applications, <strong>Java</strong> could be a good language to learn.</p>
       </div>
-<!--PHP-->
+      <!--PHP-->
       <div class="php">
         <h5>Based on the answers you provided, it looks like <strong>PHP</strong> is the track for you!</h5>
         <p>PHP is most used in content-heavy websites with relatively little user interaction. The most popular content management systems, such as Wordpress, Drupal, and Joomla, are all written in PHP. Everything from local restaurants' websites to large complex government deployments are built with these tools. If you're keen to work for an agency that builds websites for clients, or if you like the idea of building sites for brands, businesses, and organizations, <strong>PHP</strong> is a great direction to go.</p>
       </div>
-<!--Ruby-->
+      <!--Ruby-->
       <div class="ruby">
         <h5>Based on the answers you provided, it looks like <strong>Ruby</strong> is the track for you!</h5>
         <p>Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it's built with Ruby. Ruby is most popular with startups and smaller companies who are looking to build their product quickly. If that sort of quick interactivity sounds appealing, <strong>Ruby</strong> may be the language for you.</p>
@@ -201,4 +201,4 @@
     </div>
 
   </body>
-</html>
+  </html>
