@@ -6,7 +6,11 @@
   display: none;
 }
 
-#cSharp, #java, #php, #ruby {
+.cSharp, .java, .php, .ruby {
+  display: none;
+}
+
+.button {
   display: none;
 }
 

@@ -1,12 +1,9 @@
 
 $(document).ready(function () {
 //show/hide next page
-  $("#toName").click(function() {
-    $("#intro").hide();
-    $("#nameExp").show();
-  });
+
   $("#toQ1").click(function() {
-    $("#nameExp").hide();
+    $("#intro").hide();
     $("#question1").show();
   });
   $("#toQ2").click(function() {
@@ -24,14 +21,14 @@ $(document).ready(function () {
   $("#toQ5").click(function() {
     $("#question4").hide();
     $("#question5").show();
+    $(".button").show();
   });
   $("#toResults").click(function() {
     $("#question5").hide();
     $("#results").show();
   });
 
-  $("form#suggestedTrack").submit(function(event) {
-    event.preventDefault();
+  $("form#track").submit(function(event) {
 
     var q1 = parseInt($("input:radio[name=q1]:checked").val());
     var q2 = parseInt($("input:radio[name=q2]:checked").val());
@@ -40,20 +37,21 @@ $(document).ready(function () {
     var q5 = parseInt($("input:radio[name=q5]:checked").val());
     var track = q1 + q2 + q3 + q4 + q5 ;
     var name = $("input#name").val();
-
-    $("#name").text(name);
+      $(".name").text(name);
 
     if (track >= 5) {
-      $("#cSharp").show();
+      $(".cSharp").show();
 
     } else if (track >= 6 && track <= 10) {
-      $("#java").show();
+      $(".java").show();
 
     } else if (track >= 11 && track <= 15) {
-      $("#php").show();
+      $(".php").show();
 
     }else if (track >= 16) {
-      $("#ruby").show();
+      $(".ruby").show();
     }
+
+    event.preventDefault();
   });
 });
